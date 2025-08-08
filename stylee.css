@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.chess {
+    width: 45vw;
+    height: 45vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.black {
+    background-color: rgb(125, 135, 150);
+}
+
+.white {
+    background-color: rgb(232, 235, 239);
+}
+
+.coordinate {
+    display: flex;
+    height: auto;
+    bottom: 4%;
+    right: 10%;;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.rank {
+    display: flex;
+    height: auto;
+    top: 4%;
+    left: 10%;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.whiteText {
+    color: rgb(232, 235, 239);
+}
+
+.blackText {
+    color: rgb(125, 135, 150);
+}
