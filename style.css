@@ -35,7 +35,7 @@ body {
     display: flex;
     height: auto;
     bottom: 4%;
-    right: 10%;;
+    right: 4%;;
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -45,7 +45,7 @@ body {
     display: flex;
     height: auto;
     top: 4%;
-    left: 10%;
+    left: 4%;
     position: absolute;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -57,4 +57,17 @@ body {
 
 .blackText {
     color: rgb(125, 135, 150);
+}
+
+.piece {
+    width: 100%;
+    z-index: 1;
+    height: auto;
+    cursor: pointer;
+}
+
+.piece img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
